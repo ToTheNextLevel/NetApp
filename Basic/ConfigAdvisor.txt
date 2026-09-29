@@ -1,0 +1,1 @@
+container run -d -a amd64 -c 4 -m 4G -p 8080:80 -p 8443:443 --name ConfigAdvisor -e ACCEPT_EULA=true netapp/config-advisor /NetApp/launch
